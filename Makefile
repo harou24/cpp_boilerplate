@@ -1,4 +1,4 @@
-NAME = ft_irc
+NAME = helloWorld
 
 BUILD_D = build
 
