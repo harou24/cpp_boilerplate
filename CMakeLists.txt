@@ -15,9 +15,9 @@ include_directories(include)
 
 # example library
 add_library(helloWorld src/hello_world.cpp)
-add_executable(helloWorld.out apps/say_hello.cpp
-                                src/hello_world.cpp)
 
+# add programs
+add_subdirectory(apps)
 
 # for unitests
 include(CTest)
